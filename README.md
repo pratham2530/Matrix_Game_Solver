@@ -8,7 +8,7 @@ Follow these steps:
 ### Prerequisites
 Ensure you have Python 3.x installed. The project's dependencies are listed in requirements.txt. You can install them using pip:
 
-pip install -r requirements.txt
+```pip install -r requirements.txt```
 
 ### Running the Application
 After installing the dependencies, you can start the application by running the main Python file from your terminal:
