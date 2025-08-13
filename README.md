@@ -10,15 +10,18 @@ Ensure you have Python 3.x installed. The project's dependencies are listed in r
 
 ```pip install -r requirements.txt```
 
+This project relies on the **Pyomo** optimization package. While you can edit the code in any IDE, Pyomo often requires a specific environment setup to properly find its solvers. 
+For this reason, it is best to run the program from an **Anaconda-managed** terminal to avoid errors related to missing dependencies or incorrect system paths.
+
 ### Running the Application
-After installing the dependencies, you can start the application by running the main Python file from your terminal:
+In the Anaconda Navigator, check if the **Pyomo** package is installed. In the "Environments" section, search for the **Pyomo** package and install it. Then launch a Python IDE and run the following code in your terminal: 
 
 ```python main.py```
 
 ### Usage
 The application provides a GUI to easily solve a matrix game. Simply follow these steps:
 
-1. Run the application using the command above.
+1. Follow the steps outlined in the above section, "Running the Application". 
 
 2. Enter the matrix dimensions (row first, and then the column) and enter if the row player is the maximiser or the minimiser.
    Usually, for a two-player, zero-sum game, the matrix represents the payoffs for the row player - so in this case, the row player is the maximiser.
@@ -35,9 +38,25 @@ The application provides a GUI to easily solve a matrix game. Simply follow thes
    
 The application will then display the solution, including the optimal strategies for both players and the value of the game.
 
-#### Example Matrix:
-For the following payoff matrix:
+### Example Matrix:
+Suppose we have the following matrix. 
 
-$$ x + y = 3 $$
+$$ 
+\begin{pmatrix}
+2 & 3 \\
+4 & 3
+\end{pmatrix} $$
 
-The application would calculate the saddle point, optimal strategies, and the value of the game, presenting them clearly in the GUI.
+Assuming the row player is the maximiser, the row player will choose strategy 2 (the second row) since $$ 4 > 2 $$ and $$ 3 \geq 3 $$. If the row player chooses the second row, the column player will choose the second column, so the value of the game is $3$. Each player chooses the second strategy with probability 1. Once you've run the program, you'll see this: 
+
+put image here
+
+We can enter the matrix dimensions ($2 x 2$) and "max" in the last entry field. Pressing "Enter" leads to:
+
+put image here
+
+Now we can enter the values of the matrix and hit "Enter":
+
+The value of the game is $3$, as we thought. Opening up the csv file gives:
+
+put image here
