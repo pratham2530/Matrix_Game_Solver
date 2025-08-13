@@ -209,8 +209,9 @@ class Results_Panel(Frame):
 
     def restart(self) -> None:
         """
-        Reset the application and return to the main input screen.
+        Reset the application and return to the Input Panel 1 window.
         """
-        self.app.main.clear_entries()
-        self.app.main.tkraise()
+        self.app.first.clear_entries()
+        self.app.first.tkraise()
+
 
