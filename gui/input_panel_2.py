@@ -151,7 +151,7 @@ class Input_Panel_2(Frame):
             "back": Button(
                 w["frames"]["input"],
                 text="Go Back!",
-                command=self.app.main.tkraise,
+                command=self.app.first.tkraise,
             ),
             "submit": Button(
                 w["frames"]["input"], text="Enter", command=self.validate_inputs
@@ -256,5 +256,6 @@ class Input_Panel_2(Frame):
             w["labels"]["error"].config(
                 text="Enter an integer or decimal number in each cell!", fg="red"
             )
-            self.app.main.clear_label_after(w["labels"]["error"], 2000)
+            self.app.first.clear_label_after(w["labels"]["error"], 2000)
+
 
