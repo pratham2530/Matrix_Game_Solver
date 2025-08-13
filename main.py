@@ -6,9 +6,9 @@ window positioning.
 
 from tkinter import Tk
 
-from gui_main import Main
-from gui_second import Second
-from gui_third import Third
+from input_panel_1 import Input_Panel_1
+from input_panel_2 import Input_Panel_2
+from results_panel import Results_Panel
 
 
 class App(Tk):
@@ -34,12 +34,12 @@ class App(Tk):
         self.error_font = ("Segoe UI", 8, "normal")
 
         # Create and initialize all GUI windows
-        self.main = Main(self)
-        self.second = Second(self)
-        self.third = Third(self)
+        self.first = Input_Panel_1(self)
+        self.second = Input_Panel_2(self)
+        self.third = Results_Panel(self)
 
         # Place the main frame on top
-        self.main.tkraise()
+        self.first.tkraise()
         self.center_window()
         self.mainloop()
 
@@ -62,4 +62,5 @@ class App(Tk):
 
 if __name__ == "__main__":
     App()
+
 
