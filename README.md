@@ -51,7 +51,7 @@ Assuming the row player is the maximiser, the row player will choose strategy 2 
 
 ![](screenshots/input_panel_1_none.png)
 
-We can enter the matrix dimensions ($2 x 2$) and "max" in the last entry field. 
+We can enter the matrix dimensions ($2 \times 2$) and "max" in the last entry field. 
 
 ![](screenshots/input_panel_1_filled.png)
 
