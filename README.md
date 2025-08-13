@@ -57,7 +57,7 @@ We can enter the matrix dimensions ($2 \times 2$) and "max" in the last entry fi
 
 Pressing "Enter" leads to:
 
-![](screenshots/input_panel_2_filled.png)
+![](screenshots/input_fields_2_filled.png)
 
 Now we can enter the values of the matrix and hit "Enter":
 
