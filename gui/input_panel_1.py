@@ -1,5 +1,5 @@
 """
-This module contains the Main Frame class.
+This module contains the Input Panel 1 Frame class.
 It is responsible for the initial user input and validation of matrix dimensions.
 """
 
@@ -22,9 +22,9 @@ class WidgetGroups(TypedDict):
     buttons: Dict[str, Button]
 
 
-class Main(Frame):
+class Input_Panel_1(Frame):
     """
-    The main frame of the application, responsible for initial user input.
+    The first frame of the application, responsible for initial user input.
     Handles gathering matrix dimensions and player role (maximizer/minimizer).
     """
 
@@ -262,3 +262,4 @@ class Main(Frame):
         """
         for entry in self.widgets["entries"].values():
             entry.delete(0, END)
+
