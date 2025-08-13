@@ -1,5 +1,5 @@
 """
-This module contains the main application class .
+This module contains the main application class.
 It initializes the main window, sets up the user interface, and handles
 window positioning.
 """
@@ -62,3 +62,4 @@ class App(Tk):
 
 if __name__ == "__main__":
     App()
+
