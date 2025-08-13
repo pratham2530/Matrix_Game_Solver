@@ -1,5 +1,5 @@
 """
-This module contains the Second frame class. 
+This module contains the Input Panel 2 frame class. 
 It handles constructing the entry fields for the matrix. 
 """
 
@@ -26,7 +26,7 @@ class WidgetGroups(TypedDict):
     scroll: Dict[str, Union[Canvas, Scrollbar]]
 
 
-class Second(Frame):
+class Input_Panel_2(Frame):
     """
     The second frame of the application, responsible for matrix value input.
     Handles matrix entry with scrolling capability and validation.
@@ -257,3 +257,4 @@ class Second(Frame):
                 text="Enter an integer or decimal number in each cell!", fg="red"
             )
             self.app.main.clear_label_after(w["labels"]["error"], 2000)
+
