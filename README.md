@@ -38,7 +38,6 @@ The application will then display the solution, including the optimal strategies
 #### Example Matrix:
 For the following payoff matrix:
 
-[ 4,  2 ]
-[ 1,  5 ]
+$$ x + y = 3 $$
 
 The application would calculate the saddle point, optimal strategies, and the value of the game, presenting them clearly in the GUI.
