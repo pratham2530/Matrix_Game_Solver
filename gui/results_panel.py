@@ -1,5 +1,5 @@
 """
-This module contains the Third frame class. 
+This module contains the Results Panel frame class. 
 It displays the game value and csv output containing the mixed strategies for each player. 
 """
 
@@ -25,7 +25,7 @@ class WidgetGroups(TypedDict):
     frames: Dict[str, Frame]
 
 
-class Third(Frame):
+class Results_Panel(Frame):
     """
     The third frame of the application, responsible for displaying game solutions.
     It shows the calculated strategies and provides options to view CSV results.
@@ -213,3 +213,4 @@ class Third(Frame):
         """
         self.app.main.clear_entries()
         self.app.main.tkraise()
+
