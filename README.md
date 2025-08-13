@@ -33,7 +33,7 @@ The application provides a GUI to easily solve a matrix game. Simply follow thes
 4. If you need to change the matrix dimensions or if the row player is the maximiser or miniser, you can click "Go Back!".
    Otherwise, once the matrix values are inputted press "Enter".
 
-5. Finally, the application will show the value of the matrix game in a smaller boxed region starting with "Output - ... ".
+5. Finally, the application will show the value of the matrix game in a smaller boxed region starting with "Output - Game Value ... ".
    The blue link with "Open csv file" allows you to take a look at the optimal probabilities of each strategy. 
    
 The application will then display the solution, including the optimal strategies for both players and the value of the game.
