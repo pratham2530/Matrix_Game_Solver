@@ -1,4 +1,4 @@
-# Matrix_Game_Solver
+# Two Player Zero Sum Matrix Game Solver
 A Python application for solving matrix games using game theory principles, complete with a graphical user interface (GUI). 
 This project provides a simple way to input and analyze two-player zero-sum games.
 
