@@ -49,7 +49,7 @@ $$
 
 Assuming the row player is the maximiser, the row player will choose strategy 2 (the second row) since $$ 4 > 2 $$ and $$ 3 \geq 3 $$. If the row player chooses the second row, the column player will choose the second column, so the value of the game is $3$. Each player chooses the second strategy with probability 1. Once you've run the program, you'll see this: 
 
-![](screenshots/input_panel_1_none)
+![Input Panel 1 Empty](screenshots/input_panel_1_none)
 
 We can enter the matrix dimensions ($2 x 2$) and "max" in the last entry field. 
 
