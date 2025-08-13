@@ -49,20 +49,20 @@ $$
 
 Assuming the row player is the maximiser, the row player will choose strategy 2 (the second row) since $$ 4 > 2 $$ and $$ 3 \geq 3 $$. If the row player chooses the second row, the column player will choose the second column, so the value of the game is $3$. Each player chooses the second strategy with probability 1. Once you've run the program, you'll see this: 
 
-![Input Panel 1 Empty](screenshots/input_panel_1_none)
+![](screenshots/input_panel_1_none.png)
 
 We can enter the matrix dimensions ($2 x 2$) and "max" in the last entry field. 
 
-![](screenshots/input_panel_1_filled)
+![](screenshots/input_panel_1_filled.png)
 
 Pressing "Enter" leads to:
 
-![](screenshots/input_panel_2_filled)
+![](screenshots/input_panel_2_filled.png)
 
 Now we can enter the values of the matrix and hit "Enter":
 
-![](screenshots/results_panel)
+![](screenshots/results_panel.png)
 
 The value of the game is $3$, as we thought. Opening up the csv file gives:
 
-![](screenshots/csv)
+![](screenshots/csv.png)
